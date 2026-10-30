@@ -1,4 +1,4 @@
-# Aplikasi Enkripsi Data Akademik Desktop (AES + PBKDF2)
+﻿# Aplikasi Enkripsi Data Akademik Desktop (AES + PBKDF2)
 
 Implementasi aplikasi pada penelitian **"Pengembangan dan Evaluasi Aplikasi Enkripsi Data
 Akademik Desktop Menggunakan AES dengan Manajemen Kunci Berbasis Password"**
@@ -27,7 +27,7 @@ Butuh Python 3.10+ (Tkinter sudah termasuk di instalasi Python Windows/macOS;
 di Linux: `sudo apt install python3-tk`).
 
 ```bash
-git clone https://github.com/USERNAME/aes-akademik.git
+git clone https://github.com/wahyurizqi363-collab/aes-akademik.git
 cd aes-akademik
 python -m venv .venv
 # Windows: .venv\Scripts\activate    |  Linux/macOS: source .venv/bin/activate
@@ -51,7 +51,7 @@ python main.py bench    a.pdf b.docx             # evaluasi kinerja
 | SALT (32 B) | IV (16 B) | CIPHERTEXT AES-CBC (kelipatan 16 B, PKCS7) |
 ```
 
-Overhead ukuran berkas = 32 + 16 + padding (1–16 B) = **maksimum 64 byte**, konstan
+Overhead ukuran berkas = 32 + 16 + padding (1â€“16 B) = **maksimum 64 byte**, konstan
 berapapun ukuran berkas asli.
 
 ## Pengujian
@@ -73,7 +73,7 @@ Hasil ada di folder `dist/`.
 - Password tidak disimpan; **jika hilang, data tidak dapat dipulihkan**.
 - Mode CBC menjamin kerahasiaan tetapi **tidak menjamin keaslian/integritas** (tidak ada MAC).
   Untuk produksi, pertimbangkan AES-GCM atau menambahkan HMAC (menambah overhead ukuran).
-- Gunakan password panjang (≥ 12 karakter) agar tahan serangan *brute-force*.
+- Gunakan password panjang (â‰¥ 12 karakter) agar tahan serangan *brute-force*.
 
 ## Lisensi
 
