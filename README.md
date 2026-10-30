@@ -7,9 +7,10 @@ DOI: [10.59934/jaiea.v5i3.2374](https://doi.org/10.59934/jaiea.v5i3.2374)).
 
 ## Tampilan Aplikasi
 
-| Enkripsi / Dekripsi | Evaluasi Kinerja |
-|---|---|
-| ![Enkripsi](docs/enkripsi.png) | ![Evaluasi](docs/evaluasi.png) |
+<img width="917" height="669" alt="Screenshot 2026-10-30 104250" src="https://github.com/user-attachments/assets/188e02e3-824d-49be-b5fe-edb523e82438" />
+<img width="909" height="671" alt="Screenshot 2026-10-30 104359" src="https://github.com/user-attachments/assets/02aa8247-06f9-49b5-892b-f48637a2239f" />
+<img width="925" height="685" alt="Screenshot 2026-10-30 121943" src="https://github.com/user-attachments/assets/75a81b2c-6f09-494e-aa73-4391265b0a7a" />
+
 
 ## Fitur
 
